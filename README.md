@@ -17,9 +17,9 @@ This is a dynamic Quiz Web App developed using React, leveraging the power of va
 
 <h1>Screenshots</h1>
 
-![Image](https://github.com/Hanzalashaik/countDown-game/blob/main/public/ss.png "Image")
+![Image](https://github.com/Hanzalashaik/quiz-app/blob/main/public/quiz%20screen.png "Image")
 
-![Image](https://github.com/Hanzalashaik/countDown-game/blob/main/public/result.png "Image")
+![Image](https://github.com/Hanzalashaik/quiz-app/blob/main/public/quiz%20result.png "Image")
 
 ## Installation
 

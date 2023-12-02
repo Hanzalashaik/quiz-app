@@ -29,7 +29,11 @@ To run this Quiz Web App locally, follow these steps:
 git clone git@github.com:Hanzalashaik/quiz-app.git
 cd quiz-app
 npm install
-npm start
+```
+To start app
+
+```bash
+npm run dev
 ```
 
 ### HAPPY CODING😊

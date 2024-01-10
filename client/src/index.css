@@ -334,3 +334,104 @@ header h1 {
     transform: translateY(0);
   }
 }
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 768px) {
+  body {
+    padding: 1rem; /* Adjust padding for smaller screens */
+  }
+
+  header h1 {
+    font-size: 2rem; /* Adjust heading font size for smaller screens */
+  }
+
+  #last-try {
+    max-width: 90%; /* Adjust maximum width for smaller screens */
+    font-size: 0.7rem; /* Adjust font size for smaller screens */
+  }
+
+  #last-try h2 {
+    font-size: 0.9rem; /* Adjust heading font size for smaller screens */
+  }
+
+  #last-try ul {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+
+  #quiz {
+    max-width: 90%; /* Adjust maximum width for smaller screens */
+    padding: 1rem; /* Adjust padding for smaller screens */
+  }
+
+  #question-overview {
+    font-size: 0.7rem; /* Adjust font size for smaller screens */
+  }
+
+  #question h2 {
+    font-size: 1.2rem; /* Adjust heading font size for smaller screens */
+  }
+
+  #question progress {
+    width: 70%; /* Adjust progress bar width for smaller screens */
+  }
+
+  .answer button {
+    font-size: 0.8rem; /* Adjust button font size for smaller screens */
+    padding: 0.8rem 1.5rem; /* Adjust button padding for smaller screens */
+  }
+
+  #skip-action {
+    margin-top: 1.5rem; /* Adjust margin-top for smaller screens */
+  }
+
+  #skip-action button {
+    font-size: 0.9rem; /* Adjust button font size for smaller screens */
+  }
+
+  #summary {
+    max-width: 90%; /* Adjust maximum width for smaller screens */
+    padding: 1.5rem; /* Adjust padding for smaller screens */
+  }
+
+  #summary img {
+    width: 6rem; /* Adjust image width for smaller screens */
+    height: 6rem; /* Adjust image height for smaller screens */
+  }
+
+  #summary h2 {
+    font-size: 2.5rem; /* Adjust heading font size for smaller screens */
+  }
+
+  #summary ol {
+    margin: 1.5rem auto; /* Adjust margin for smaller screens */
+  }
+
+  #summary li {
+    margin: 1.5rem 0; /* Adjust margin for smaller screens */
+  }
+
+  #summary .question,
+  #summary .user-answer {
+    font-size: 0.9rem; /* Adjust font size for smaller screens */
+  }
+
+  #summary-stats {
+    width: 100%; /* Adjust width for smaller screens */
+    flex-direction: column; /* Change flex direction for smaller screens */
+    align-items: center; /* Center align items for smaller screens */
+    margin: 1.5rem auto; /* Adjust margin for smaller screens */
+  }
+
+  #summary-stats p {
+    text-align: center; /* Center align text for smaller screens */
+  }
+
+  #summary-stats .number {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+
+  #summary-stats .text {
+    font-size: 0.8rem; /* Adjust font size for smaller screens */
+    margin-top: -0.5rem; /* Adjust margin-top for smaller screens */
+  }
+}
